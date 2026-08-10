@@ -1,0 +1,76 @@
+/* STYLE SECTIONING TAGS */
+body {
+  margin: 2em;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #e8ffab;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: "Mistral", cursive;
+  font-size: 70px;
+  font-weight: 10;
+  color: #462d01;
+}
+
+h2 {
+  margin-top: 2em; 
+  color: #462d01;
+  font-family: "Ink Free", sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: #462d01;
+  font-family: "Ink Free", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  padding: 5px;
+  background-color: #479E1E
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 13em;
+  border-width: 3px;
+  border-color: #462d01;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  border-width: 5px;
+  border-color: #462d01; 
+  font-family: "Ink Free", sans-serif;
+  font-size: 20px;
+  font-style: bold;
+  font-color: #462d01;
+  background-color: #e8ffab;
+}
+
+#getAnswers {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #62b3fe;
+}
